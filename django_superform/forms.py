@@ -177,7 +177,7 @@ class SuperFormMixin(object):
 
     def __getitem__(self, name):
         """
-        Returns a ``django.forms.BoundField`` for the given field name. It also
+        Returns a ``django.forms.boundfield.BoundField`` for the given field name. It also
         returns :class:`~django_superform.boundfield.CompositeBoundField`
         instances for composite fields.
         """
